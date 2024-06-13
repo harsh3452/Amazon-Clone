@@ -1,0 +1,81 @@
+* {
+    margin: 0px; 
+    font-family:"Book Antiqua", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #141921 ;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly   ;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(/images/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+/**box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**box3**/
+.nav-search{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: pink;
+   width: 620px;
+   height: 40px;
+   border-radius: 4px;
+   
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #f0aa4b;
+    border-radius: 0 4px 4px 0 ;
+    color: #141921  ;
+}
+
+
